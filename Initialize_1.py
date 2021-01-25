@@ -36,7 +36,7 @@ def Initialize_Hgross(model, g):
         serie_Hgross += [df2.loc[f][1]]
     return serie_Hgross[g-1]
 
-grado_poly = 2
+grado_poly = 4#2,3
 def Initialize_Efficiency(model, g):
     serie_Efficiency = []
     serie_Portate = []
